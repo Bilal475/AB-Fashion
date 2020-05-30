@@ -1,44 +1,72 @@
-*{
-    color: green;
-}
-.head{
+.heading{
     color: #E040FB;
     text-align: center;
     text-decoration: underline !important;
-   font-size: 50px;
+    padding-top: 10px;
     text-shadow: 2px 2px 4px black !important;
+    padding-bottom: 40px;
+}
+.fa-shopping-cart,.fa-user-circle-o{
+    font-size: 32px;
+}
+.main{
+    position: relative;
+    top: 120px;
+}
+.nav-link:hover{
+    background-color: green;
+    border-radius: 25px;
+    text-decoration: underline;
+}
+.dropdown-item:hover{
+    background-color: green;
+    text-decoration: underline;
+}
+.dropdown-menu{
+    background-color:#E040FB ;    
+}
+.dropdown-item{
+    color:#fff !important;
+    font-weight: bold ;
+}
+.card{
+    position: relative;
+    left: 200px;
+}
+.navbar{
+    background-color: #E040FB !important;
+}
+.nav-link{
+    color: #fff !important;
+    font-weight: bold ;
+    margin-right: 15px;
+}
+ol{
+    display: flex;
 }
 
-.detail2{
+.list{
+    margin: 10px 10px 0px 30px;
     font-size: 25px;
-    font-weight: bold;
-    margin-bottom: 40px;
 }
-
-.fa-map-marker{
-    font-size: 30px;
-    padding-left: 50px;
+.card-text{
+    font-weight: bold !important;
+    font-size: 25px;
 }
-.fa-map-marker:hover{
-    color: brown;
+.btn-primary{
+    background-color:#E040FB ;
+    width: 50%;
+    margin-left: 80px;
+    
 }
-.arrange{
-    padding: 0px 200px;
-}
-.fa-clock-o{
-    font-size: 30px;
-    padding-left: 115px;
-}
-.fa-clock-o:hover{
-    color: red;
-}@media only screen and (max-width: 850px){
-    .arrange{
-        padding-left: 0px;
-        text-align: left;
-        left: 0px;
+@media only screen and (max-width: 1000px){
+    .card{
+        padding-left: 0px !important;
+        left: 0px !important;
     }
-    .head{
-        text-align: left;
-        padding-left: 0px;
+}
+@media only screen and (max-width: 765px){
+    .card-img{
+        width: 400px;
     }
 }
