@@ -1,0 +1,64 @@
+ /* this is contact style css file */
+*{
+    color: green;
+}
+.head{
+    color: #E040FB;
+    text-align: center;
+    text-decoration: underline !important;
+   font-size: 50px;
+    text-shadow: 2px 2px 4px black !important;
+}
+.detail1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding-left: 280px;
+}
+.set{
+    padding: 0px 300px;
+}
+.detail2,.detail3{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.fa-phone{
+    font-size: 32px;
+    padding-left: 105px;
+}
+.fa-envelope{
+    font-size: 32px;
+    padding-left: 30px;
+}
+.fa-phone:hover{
+    color: red;
+}
+.fa-envelope:hover{
+    color: brown;
+}
+
+@media only screen and (max-width: 670px){
+     .responsive{
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+    .head{
+    padding: 0px !important;
+    margin: 0px !important;
+    text-align: left;
+    }
+    .set,.detail2{
+        padding: 0px ;
+        margin: 0px ;
+        padding-bottom: 30px;
+        text-align: left;
+        justify-content: left;
+        align-items: flex-start;
+    }
+    p{
+        padding:0px !important;
+        text-align: left;
+        justify-content: left;
+    }
+}

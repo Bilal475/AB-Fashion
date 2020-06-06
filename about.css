@@ -1,0 +1,45 @@
+/* this is about style css file */
+*{
+    color: green;
+}
+.head{
+    color: #E040FB;
+    text-align: center;
+    text-decoration: underline !important;
+   font-size: 50px;
+    text-shadow: 2px 2px 4px black !important;
+}
+
+.detail2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.fa-map-marker{
+    font-size: 30px;
+    padding-left: 50px;
+}
+.fa-map-marker:hover{
+    color: brown;
+}
+.arrange{
+    padding: 0px 200px;
+}
+.fa-clock-o{
+    font-size: 30px;
+    padding-left: 115px;
+}
+.fa-clock-o:hover{
+    color: red;
+}@media only screen and (max-width: 850px){
+    .arrange{
+        padding-left: 0px;
+        text-align: left;
+        left: 0px;
+    }
+    .head{
+        text-align: left;
+        padding-left: 0px;
+    }
+}
